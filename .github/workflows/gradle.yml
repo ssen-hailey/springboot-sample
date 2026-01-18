@@ -74,6 +74,8 @@ jobs:
         aws s3 cp build/libs/demo-0.0.1.jar s3://${{ env.S3_BUCKET_NAME }}/demoapp/main/demoapp-${{ steps.vars.outputs.sha_short }}.jar
 #       aws s3 cp ./build/libs/demo-0.0.1.jar s3://seeun-service-deployment/sample/${{ github.base_ref }}/sample-${{ steps.vars.outputs.sha_short }}.jar
 #test
+
+
     # ECR LOGIN
 #    - name: Login to Amazon ECR
 #      id: login-ecr
