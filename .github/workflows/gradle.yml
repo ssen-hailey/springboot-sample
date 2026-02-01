@@ -15,7 +15,7 @@ permissions:
 env:
   REGION: ap-northeast-2
   APP_NAME: sample
-  S3_BUCKET_NAME: seeun-id-service-deployment
+  S3_BUCKET_NAME: seeun-service-deployment
 
 jobs:
   build:
