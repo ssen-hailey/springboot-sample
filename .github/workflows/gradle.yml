@@ -57,6 +57,7 @@ jobs:
         run: |
           docker push ${{ secrets.AWS_ACCOUNT_ID }}.dkr.ecr.${{ env.REGION }}.amazonaws.com/${{ env.APP_NAME }}:d${{ steps.vars.outputs.sha_short }}
 
+
       # ---- 아래는 "steps" 안에 있어야 하므로 들여쓰기 맞춘 주석 블록 ----
       # - name: Download task definition
       #   run: |
