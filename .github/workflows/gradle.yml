@@ -80,6 +80,6 @@ jobs:
           service: sampleapp-tmcdapne2
           cluster: sampleapp-tmcdapne2
           wait-for-service-stability: true
-          # codedeploy-appspec: appspec.json
-          # codedeploy-application: demo_app
-          # codedeploy-deployment-group: demo_app
+          codedeploy-appspec: appspec.json
+          codedeploy-application: demo-xyzdapne2
+          codedeploy-deployment-group: ddemo-xyzdapne2
